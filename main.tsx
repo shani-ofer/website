@@ -4,10 +4,10 @@
  */
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Layout } from "./Layout";
-import { Homepage } from "./Homepage";
-import { IndividualsPage } from "./IndividualsPage";
-import { CompaniesPage } from "./CompaniesPage";
+import { Layout } from "@/src/components/Layout";
+import { Homepage } from "@/src/pages/Homepage";
+import { IndividualsPage } from "@/src/pages/IndividualsPage";
+import { CompaniesPage } from "@/src/pages/CompaniesPage";
 
 export default function App() {
   return (
