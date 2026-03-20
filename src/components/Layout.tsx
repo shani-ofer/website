@@ -43,3 +43,15 @@ export function Button({ variant = "primary-blue", href, className, children, ..
     </button>
   );
 }
+// This is the Layout component your App.tsx is looking for!
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="min-h-screen bg-white">
+      {/* You can add a Navbar here later */}
+      <main>
+        {children}
+      </main>
+      {/* You can add a Footer here later */}
+    </div>
+  );
+}
