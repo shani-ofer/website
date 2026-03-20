@@ -2,9 +2,8 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-
+import Layout from '../components/Layout';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Layout } from "@/src/components/Layout";
 import { Homepage } from "@/src/pages/Homepage";
 import { IndividualsPage } from "@/src/pages/IndividualsPage";
 import { CompaniesPage } from "@/src/pages/CompaniesPage";
